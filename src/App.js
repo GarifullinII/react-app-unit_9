@@ -2,6 +2,7 @@ import './App.css';
 import ButtonClass from './ButtonClass';
 import ButtonF from './ButtonF';
 import DataLoaderClass from './DataLoaderClass';
+import DataLoaderF from './DataLoaderF';
 
 function App() {
   return (
@@ -12,6 +13,8 @@ function App() {
       <ButtonF/>
       <hr/>
       <DataLoaderClass/>
+      <hr/>
+      <DataLoaderF/>
     </>
   );
 }
